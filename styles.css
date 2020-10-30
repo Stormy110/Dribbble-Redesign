@@ -1,45 +1,49 @@
 .container {
     display:flex;
     flex-direction: column;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: 'Raleway,',sans-serif;
 }
 .header {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items: center;
+    flex-grow:1;
 
 }
 .main {
-    flex-grow:1;
+    flex-grow:2;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
     color:white;
     background-image: url(https://a0.muscache.com/im/pictures/587f9cfa-e025-48b1-8382-8790c8bfb8d1.jpg?aki_policy=large);
     background-size:cover;
+    position:relative;
 }
 .footer {
+    flex-grow:1;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size:2vw
     
 }
 .top-bar {
     height:5px;
     background:red;
     width:100%;
-    margin:0;
 }
 .nav1 {
     align-self: center;
     margin:10px 0px 25px 45px;
+    font-size: 1vw;
 
 }
 .nav2 {
     display:flex;
     justify-content:space-between;
+    font-size:1vw
 }
 li, a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -52,35 +56,54 @@ li, a, a:hover, a:focus, a:active {
 .picture-small-text {
     align-self: flex-start;
     flex-shrink: 1;
-    margin:100px 0px 0px 100px;
+    margin:100px 0px 400px 100px;
     text-decoration: underline;
+    font-size:1.5vw;
 }
 .heading1 {
     width:100%;
     max-width: 100%;
     text-decoration: bold;
-    font-size:163px;
-    margin:50px 0px 0px 0px;
-    padding:50px 0px 0px 0px;
-    top:50px;
-    justify-content: flex-end;
-    flex-basis: 0;
+    font-size:15vw;
+    opacity:1;
+    position:absolute;
+    margin: 525px 0px;
+    color:white;
+   
+    
 }
 .footer-title {
     margin: 100px 100px 0px 0px;
     text-decoration: underline;
 }
 .footer-p {
-    margin: 10px 115px 40px 0px;
-}
-sub {
-    color:black;
-    font-size:10px;
+    margin: 10px 115px 25px 0px;
+    
 }
 .work-a {
     color:red;
     text-decoration:line-through;
 }
 .superscript {
-    font-size:10px;
+    font-size:0.5vw;
 }
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    li, a, a:hover, a:focus, a:active {
+        margin:15px 5px 35px 5px;
+    }
+  }
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* styles */
+  }
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+    /* styles */
+  }
+  /* Large screens ---------- */
+  @media screen and (min-width: 1824px) {
+    /* styles */
+  }
