@@ -1,0 +1,84 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.header {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.main {
+    flex-grow:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:white;
+    background-image: url(https://a0.muscache.com/im/pictures/587f9cfa-e025-48b1-8382-8790c8bfb8d1.jpg?aki_policy=large);
+}
+.footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-bar {
+    height:5px;
+    background:red;
+    width:100%;
+    margin:0;
+}
+.nav1 {
+    align-self: center;
+    margin:10px 0px 25px 45px;
+
+}
+.nav2 {
+    display:flex;
+    justify-content:space-between;
+}
+li, a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin:15px 25px 35px 15px;
+}
+.picture-small-text {
+    align-self: flex-start;
+    flex-shrink: 1;
+    margin:100px 0px 0px 100px;
+    text-decoration: underline;
+}
+.heading1 {
+    width:100%;
+    max-width: 100%;
+    text-decoration: bold;
+    font-size:163px;
+    margin:50px 0px 0px 0px;
+    padding:50px 0px 0px 0px;
+    top:50px;
+    justify-content: flex-end;
+}
+.footer-title {
+    margin: 100px 100px 0px 0px;
+    text-decoration: underline;
+}
+.footer-p {
+    margin: 10px 115px 40px 0px;
+}
+sub {
+    color:black;
+    font-size:10px;
+}
+.work-a {
+    color:red;
+    text-decoration:line-through;
+}
+.superscript {
+    font-size:10px;
+}
