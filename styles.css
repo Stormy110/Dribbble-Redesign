@@ -37,13 +37,13 @@
 .nav1 {
     align-self: center;
     margin:10px 0px 25px 45px;
-    font-size: 1vw;
+    font-size: 1.5vw;
 
 }
 .nav2 {
     display:flex;
     justify-content:space-between;
-    font-size:1vw
+    font-size:1.5vw
 }
 li, a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -94,16 +94,3 @@ li, a, a:hover, a:focus, a:active {
     }
   }
 
-/* Tablets, iPads (portrait and landscape) ---------- */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* styles */
-  }
-
-/* Desktops and laptops ---------- */
-@media screen and (min-width: 1224px) {
-    /* styles */
-  }
-  /* Large screens ---------- */
-  @media screen and (min-width: 1824px) {
-    /* styles */
-  }
