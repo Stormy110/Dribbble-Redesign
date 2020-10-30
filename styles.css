@@ -17,6 +17,7 @@
     justify-content: space-between;
     color:white;
     background-image: url(https://a0.muscache.com/im/pictures/587f9cfa-e025-48b1-8382-8790c8bfb8d1.jpg?aki_policy=large);
+    background-size:cover;
 }
 .footer {
     display:flex;
@@ -63,6 +64,7 @@ li, a, a:hover, a:focus, a:active {
     padding:50px 0px 0px 0px;
     top:50px;
     justify-content: flex-end;
+    flex-basis: 0;
 }
 .footer-title {
     margin: 100px 100px 0px 0px;
